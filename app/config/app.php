@@ -188,7 +188,10 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
-
+		'Pre'             => 'Paste\Pre',
+	 	'L_ipsum'         => 'Badcow\Lorem-ipsum',
+  		'Faker'           => 'Fzaninotto\faker',
+			
 	),
 
 );
