@@ -5,9 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Steve Motsco">
     <title>@yield("title","Developer's Best Friend")</title>
-
-
-	<link rel='stylesheet' href='/css/st.css' type='text/css'>
+	<link rel='stylesheet' href='/css/style.css' type='text/css'>
 
 	@yield('head')
 
@@ -25,16 +23,19 @@
 		</tr>
 	</table>
 
-	<nav>
-		<ul>
-			<li><a href='/list'>List All</a></li>
-			<li><a href='/add'>+ Add Book</a></li>
-		</ul>
-	</nav>
-	
 	@yield('content')
 
 	@yield('body')
+
+	@yield('results')
+
+	<nav>
+		<ul>
+			@yield('nav')
+		</ul>
+	</nav>
+
+	@yield('footer')
 	
 </body>
 </html>

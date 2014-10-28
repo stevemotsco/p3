@@ -1,25 +1,18 @@
-## Laravel PHP Framework
+##### Project3 created by Steve Motsco and initially posted to GitHub on 21Oct14
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+##### Project URL:  http://p3.stevemotsco.me/
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+##### Demo URL:  http://screencast.com/????????????????????????\
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+##### This project contains a Lorem Ipsum generator that produces scrambled Latin text to act as placeholder dummy text.  It also contains a Random User generator that produces data on ficticious users for testing an application.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+##### To generate the Lorem Ipsum text I imported a PHP package, badcow/lorem-ipsum, which can be found at: https://packagist.org/packages/badcow/lorem-ipsum and https://github.com/samuelwilliams/LoremIpsum.
 
-## Official Documentation
+##### To generate the Random User data I imported a PHP package, fzaninotto/faker, which can be found at: https://packagist.org/packages/fzaninotto/faker and https://github.com/fzaninotto/Faker.
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+##### Got a late start on this project due to other commitments in life, so I plan on using my "One Free Late Pass" for this project.
 
-### Contributing To Laravel
+##### I ran into issues accessing classes I created in the folder app\classes.  In composer.json I added the following to the autoload code: "app/classes", but I was still unable to assecc the classes.  So, I put the classes in app/controllers and it worked.
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+##### I ran into issues getting code I put in a controller I created, LoremIpsumGenerator.php, to function.  I ended up moving the logic I put in this controller directly into the routes.php file.
 
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
