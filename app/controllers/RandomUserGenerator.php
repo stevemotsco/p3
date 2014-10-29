@@ -4,7 +4,7 @@ class RandomUserGenerator {
 	// this class generates the requested number of Lorem Ipsum paragraphs by using an imported package: badcow/lorem-ipsum 
 	public function generateRandomUsers($quantity) {
 		// Instantiate a new "Faker" object
-		$faker = Faker\Factory::create();
+		$faker = Faker\Factory::create();      
 		// declare array to hold all users' info
 		$users = array();
 		// array to hold one user's info

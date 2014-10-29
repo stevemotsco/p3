@@ -5,8 +5,8 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"badcow/lorem-ipsum": "dev-master",
-		"fzaninotto/faker": "dev-master",
+		"Badcow/Lorem-ipsum": "dev-master",
+		"Fzaninotto/Faker": "dev-master",
 		"paste/pre": "dev-master"
 	},
 	"autoload": {

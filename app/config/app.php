@@ -190,7 +190,7 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 		'Pre'             => 'Paste\Pre',
 	 	'L_ipsum'         => 'Badcow\Lorem-ipsum',
-  		'Faker'           => 'Fzaninotto\faker',
+  		'Faker'           => 'Fzaninotto\Faker',
 			
 	),
 
