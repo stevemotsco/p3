@@ -9,16 +9,12 @@ h1
   font-weight: bold;
 }
 
-h2
+h6
 { text-align: center;
   font-weight: bold;
 }
 
-h3
-{ text-align: center;
-}
-
-p, h4
+p, h2, h3, h4
 { text-align: left;
   font-weight: bold;
 }
@@ -26,7 +22,7 @@ p, h4
 div
 { min-width: 300px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 5px;
   margin-right: 20px;
   padding: 10px;
   text-align: left;
@@ -41,4 +37,10 @@ img
 
 .wbdr
 { border: 3px solid black;
+}
+
+table tr td 
+{ border: 1px solid black;
+  padding: 10px;
+
 }

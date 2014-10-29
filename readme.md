@@ -12,7 +12,7 @@
 
 ##### Got a late start on this project due to other commitments in life, so I plan on using my "One Free Late Pass" for this project.
 
-##### I ran into issues accessing classes I created in the folder app\classes.  In composer.json I added the following to the autoload code: "app/classes", but I was still unable to assecc the classes.  So, I put the classes in app/controllers and it worked.
+##### I ran into issues accessing classes I created in the folder app\classes.  In composer.json I added the following to the autoload code: "app/classes", but I was still unable to assecc the classes.  So, after 6+ hours of reading, reviewing class and section videos, and a lot of frustration, I finally put the classes in app/controllers and it worked.  
 
-##### I ran into issues getting code I put in a controller I created, LoremIpsumGenerator.php, to function.  I ended up moving the logic I put in this controller directly into the routes.php file.
+##### I ran into issues getting code I put in a controller I created, LoremIpsumGenerator.php, to function.  So, after 6+ hours of reading, reviewing class and section videos, and a lot of frustration, I ended up moving the logic I put in this controller directly into the routes.php file.
 

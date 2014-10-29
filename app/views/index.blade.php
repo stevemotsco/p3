@@ -15,21 +15,19 @@
 	<a href='/p3/public/generate-loremipsum'>Generate Lorem Ipsum text</a> -->
     <!-- LOCAL -->
 	<a href='/p3/public/generate-loremipsum'>Generate Lorem Ipsum text</a> 
-	
-	<br/>
+	<br/><br/>
 	<h2>Random User Generator</h2>
 	<h4>It is common for someone to need random user data when developing or testing a web site or application.  This random user generator will do this for you.</h4>
     <!-- PRODUCTION 
 	<a href='/p3/public/generate-user'>Generate Random Users</a> -->
     <!-- LOCAL -->
 	<a href='/p3/public/generate-user'>Generate Random Users</a>
+	<br/><br/>
 @stop
 
 @section('nav')
     <!-- PRODUCTION 
-	<li><a href='/generate-loremipsum'>Lorem Ipsum Generator</a></li> 
-	<li><a href='/generate-user'>Random User Generator</a></li> -->
+	<br/><a href='/generate-loremipsum'>Lorem Ipsum Generator</a> | <a href='/generate-user'>Random User Generator</a> -->
     <!-- LOCAL -->
-	<li><a href='/p3/public/generate-loremipsum'>Lorem Ipsum Generator</a></li> 
-	<li><a href='/p3/public/generate-user'>Random User Generator</a></li> 
+	<br/><a href='/p3/public/generate-loremipsum'>Lorem Ipsum Generator</a> | <a href='/p3/public/generate-user'>Random User Generator</a>
 @stop

@@ -1,7 +1,7 @@
 <?php
 
 class ErrorChecks {
-	
+	// checks for non-integer inputs and numbers not between 1-99
 	public function checkInput($quantity) {
 		$outputMsg = "";
 		// check that input is a number

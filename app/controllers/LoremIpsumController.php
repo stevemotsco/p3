@@ -1,7 +1,7 @@
 <?php
 
 class LoremIpsumController extends BaseController {
-
+	//As of 25 Oct 14: WHEN CALL MADE TO THIS CONTROLLER, THE FUNCTIONALITY DOES NOTHING SO NOT CURRENTLY BEING USED.
 	public function generateLoremIpsum() {
 
 		// show empty form if nothing submitted yet
@@ -28,10 +28,10 @@ class LoremIpsumController extends BaseController {
 		return View::make('generate-loremipsum')
 				->with('outputMsg', $outputMsg);
 		// if input failed validation, return message to user 
-	//	if (strlen($outputMsg) = 0) {
-	//		return View::make("generate-loremipsum")
-	//			->with("outputMsg", $outputMsg);
-	//	}
+		//	if (strlen($outputMsg) = 0) {
+		//		return View::make("generate-loremipsum")
+		//			->with("outputMsg", $outputMsg);
+		//	}
 
 
 		// new instance of the LoremIpsumGenerator class

@@ -12,52 +12,35 @@
 
 @section('content')
 	<h1>Lorem Ipsum Generator</h1>
-<!--PRODUCTION
-    <form method="POST" action="/p3/public/generate-user" accept-charset="UTF-8"> -->
-<!--LOCAL -->
+	{{ Form::open(array("url" => "generate-loremipsum", "method" => "GET")) }}
 
+		{{ Form::label("quantity", "How many Lorem Ipsum paragraphs do you desire? (Max of 99)"); }}
+		<br/><br/>
+		{{ Form::text("quantity", Input::get("quantity")); }}
+		<br/><br/>
+		{{ Form::submit("submit", array("class" => "btn btn-primary btn-lg", "name" => "submit")); }}
 
-<!--	<form method="POST" action="/p3/public/generate-user" accept-charset="UTF-8">
-		<input name="_token" type="hidden" value="d0zeiikuqcXntow6KimPqIvPTcqQ6Us4xGt8aOik">
-
--->
-	<div>
-		{{ Form::open(array("url" => "generate-loremipsum", "method" => "GET")) }}
-
-			{{ Form::label("quantity", "How many Lorem Ipsum paragraphs do you desire? (Max of 99)"); }}
-			<br/><br/>
-			{{ Form::text("quantity", Input::get("quantity")); }}
-			<br/><br/>
-			{{ Form::submit("submit", array("class" => "btn btn-success btn-lg", "name" => "submit")); }}
-
-		{{ Form::close() }}
-	</div>
+	{{ Form::close() }}
 @stop
 
 
 @section('results')
+	@if(isset($outputMsg))
+		<br/><p id="outputMsg">{{ $outputMsg }}</p>
+	@endif
 
-	<div>
-		@if(isset($outputMsg))
-		<p id="outputMsg">{{ $outputMsg }}</p>
-		@endif
-
-		@if(isset($outputLoremIpsums))
-			<div>				
-				@foreach($outputLoremIpsums as $outputLoremIpsum)
-					<p>{{ $outputLoremIpsum }}</P>
-				@endforeach
-			</div>
-		@endif
-	</div>
+	@if(isset($outputLoremIpsums))
+		<br/>				
+		@foreach($outputLoremIpsums as $outputLoremIpsum)
+			<p>{{ $outputLoremIpsum }}</P>
+		@endforeach
+	@endif
 @stop
 
 
 @section('nav')
 	<!-- PRODUCTION 
-	<li><a href='/'>&larr; HOME</a></li>
- 	<li><a href='/generate-user'>Random User Generator</a></li> -->
+	<br/><a href='/'>&larr; HOME</a> | <a href='/generate-user'>Random User Generator</a>  -->
     <!-- LOCAL -->
-	<li><a href='/p3/public/'>&larr; HOME</a> | <a href='/p3/public/generate-user'>Random User Generator</a></li>
-
+	<br/><a href='/p3/public/'>&larr; HOME</a> | <a href='/p3/public/generate-user'>Random User Generator</a>
 @stop

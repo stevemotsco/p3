@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="utf-8">
     <meta name="author" content="Steve Motsco">
     <title>@yield("title","Developer's Best Friend")</title>
-	<link rel='stylesheet' href='/css/style.css' type='text/css'>
+	<!-- PRODUCTION 
+	<link rel='stylesheet' href='/css/style.css' type='text/css'>  -->
+    <!-- LOCAL -->
+    <link rel='stylesheet' href='/p3/public/css/style.css' type='text/css'>
 
 	@yield('head')
-
-	
 </head>
+
 <body>
+	<div>
+		@yield('nav')	
+	</div>
+
 	<table>
 		<tr>
-			<td>
-				<img src='/images/generate.png' alt='Generator Logo'><br/>
-			</td>
-			<td>
+			<th>
+				<!-- PRODUCTION 
+				<img src='/images/generate.png' alt='Generator Logo'><br/>  -->
+			    <!-- LOCAL -->
+				<img src='/p3/public/images/generate.png' alt='Generator Logo'><br/>
+			</th>
+			<th>
 				<h1>Developer's Best Friend</h1>
-			</td>
+				<h3>Generate data to assist when displaying and testing applications</h3>
+			</th>
 		</tr>
 	</table>
 
-	@yield('content')
+	<div>
+		@yield('content')
 
-	@yield('body')
+		@yield('body')
 
-	@yield('results')
+		@yield('results')
 
-	<nav>
-		<ul>
-			@yield('nav')
-		</ul>
-	</nav>
+		@yield('nav')	
+	</div>
 
 	@yield('footer')
 	
