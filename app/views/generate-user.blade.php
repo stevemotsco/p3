@@ -74,8 +74,8 @@
 
 
 @section('nav')
-	<!-- PRODUCTION 
-	<br/><a href='/'>&larr; HOME</a> | <a href='/generate-loremipsum'>Lorem Ipsum Generator</a>  -->
-    <!-- LOCAL -->
-	<br/><a href='/p3/public/'>&larr; HOME</a> | <a href='/p3/public/generate-loremipsum'>Lorem Ipsum Generator</a>
+	<!-- PRODUCTION -->
+	<br/><a href='/'>&larr; HOME</a> | <a href='/generate-loremipsum'>Lorem Ipsum Generator</a>  
+    <!-- LOCAL 
+	<br/><a href='/p3/public/'>&larr; HOME</a> | <a href='/p3/public/generate-loremipsum'>Lorem Ipsum Generator</a> -->
 @stop

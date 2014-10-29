@@ -39,8 +39,8 @@
 
 
 @section('nav')
-	<!-- PRODUCTION 
-	<br/><a href='/'>&larr; HOME</a> | <a href='/generate-user'>Random User Generator</a>  -->
-    <!-- LOCAL -->
-	<br/><a href='/p3/public/'>&larr; HOME</a> | <a href='/p3/public/generate-user'>Random User Generator</a>
+	<!-- PRODUCTION -->
+	<br/><a href='/'>&larr; HOME</a> | <a href='/generate-user'>Random User Generator</a>  
+    <!-- LOCAL 
+	<br/><a href='/p3/public/'>&larr; HOME</a> | <a href='/p3/public/generate-user'>Random User Generator</a>  -->
 @stop

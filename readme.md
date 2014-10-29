@@ -16,3 +16,4 @@
 
 ##### I ran into issues getting code I put in a controller I created, LoremIpsumGenerator.php, to function.  So, after 6+ hours of reading, reviewing class and section videos, and a lot of frustration, I ended up moving the logic I put in this controller directly into the routes.php file.
 
+

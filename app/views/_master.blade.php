@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="author" content="Steve Motsco">
     <title>@yield("title","Developer's Best Friend")</title>
-	<!-- PRODUCTION 
-	<link rel='stylesheet' href='/css/style.css' type='text/css'>  -->
-    <!-- LOCAL -->
-    <link rel='stylesheet' href='/p3/public/css/style.css' type='text/css'>
+	<!-- PRODUCTION -->
+	<link rel='stylesheet' href='/css/style.css' type='text/css'>  
+    <!-- LOCAL 
+    <link rel='stylesheet' href='/p3/public/css/style.css' type='text/css'>  -->
 
 	@yield('head')
 </head>
@@ -20,10 +20,10 @@
 	<table>
 		<tr>
 			<th>
-				<!-- PRODUCTION 
-				<img src='/images/generate.png' alt='Generator Logo'><br/>  -->
-			    <!-- LOCAL -->
-				<img src='/p3/public/images/generate.png' alt='Generator Logo'><br/>
+				<!-- PRODUCTION  -->
+				<img src='/images/generate.png' alt='Generator Logo'><br/>  
+			    <!-- LOCAL 
+				<img src='/p3/public/images/generate.png' alt='Generator Logo'><br/>  -->
 			</th>
 			<th>
 				<h1>Developer's Best Friend</h1>
