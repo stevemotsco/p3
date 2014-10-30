@@ -9,12 +9,12 @@ h1
   font-weight: bold;
 }
 
-h6
+h3, h6
 { text-align: center;
   font-weight: bold;
 }
 
-p, h2, h3, h4
+p, h2, h4
 { text-align: left;
   font-weight: bold;
 }
@@ -37,6 +37,10 @@ img
 
 .wbdr
 { border: 3px solid black;
+}
+
+.hdr
+{ font-weight: bold;
 }
 
 table tr td 

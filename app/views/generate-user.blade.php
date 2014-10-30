@@ -14,7 +14,7 @@
 	<h1>Random User Generator</h1>
 	{{ Form::open(array("url" => "generate-user", "method" => "GET")) }}
 
-		{{ Form::label("quantity", "How many Random Users do you desire? (Max of 99)"); }}
+		<p>{{ Form::label("quantity", "How many Random Users do you desire? (Max of 99)"); }}</p>
 		<br/><br/>
 		{{ Form::text("quantity", Input::get("quantity")); }}
 		<br/><br/>
@@ -32,7 +32,7 @@
 	@if(isset($outputUsers))
 		<br/>				
 		<table>
-			<tr>
+			<tr class="hdr">
 				<td>
 					Name
 				</td>
