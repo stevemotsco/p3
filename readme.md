@@ -2,7 +2,7 @@
 
 ##### Project URL:  http://p3.stevemotsco.me/
 
-##### Demo URL:  http://screencast.com/????????????????????????\
+##### Demo URL:  http://screencast.com/t/LxAYt3sgjtw
 
 ##### This project contains a Lorem Ipsum generator that produces scrambled Latin text to act as placeholder dummy text.  It also contains a Random User generator that produces data on ficticious users for testing an application.
 
