@@ -15,9 +15,9 @@
 	{{ Form::open(array("url" => "generate-loremipsum", "method" => "GET")) }}
 
 		<p>{{ Form::label("quantity", "How many Lorem Ipsum paragraphs do you desire? (Max of 99)"); }}</p>
-		<br/><br/>
+		<br/>
 		{{ Form::text("quantity", Input::get("quantity")); }}
-		<br/><br/>
+		<br/>
 		{{ Form::submit("submit", array("class" => "btn btn-primary btn-lg", "name" => "submit")); }}
 
 	{{ Form::close() }}
